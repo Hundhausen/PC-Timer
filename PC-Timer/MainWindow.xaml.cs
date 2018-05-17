@@ -81,6 +81,7 @@ namespace PC_Timer {
                     break;
                 }
             this.Resources.MergedDictionaries.Add(dict);
+            Thread.CurrentThread.CurrentUICulture = newCulture;
             }
 
         public static void write_lang_settings(string lang) {
@@ -96,16 +97,11 @@ namespace PC_Timer {
         private void MenRadio_en_Checked(object sender, RoutedEventArgs e) {
             SetLanguageDictionary(new CultureInfo("en-US"));
             datetimepicker_date.CultureInfo = new CultureInfo("en-US");
-            //string text = "lang=en-US";
-            //WriteToConfig(text);
-
             }
 
         private void MenRadio_de_Checked(object sender, RoutedEventArgs e) {
             SetLanguageDictionary(new CultureInfo("de-DE"));
             datetimepicker_date.CultureInfo = new CultureInfo("de-DE");
-            //string text = "lang=de-DE";
-            //WriteToConfig(text);
             }
 
         private void MenItem_en_Click(object sender, RoutedEventArgs e) {
@@ -126,7 +122,8 @@ namespace PC_Timer {
 
         private void MenInfo_Click(object sender, RoutedEventArgs e) {
             //TODO better Version
-            MessageBox.Show("PC-Timer created by Jean-Pierre Hundhausen\nMy Github: https://github.com/Hundhausen", "Info");
+            AboutWindow aw = new AboutWindow(config_file);
+            aw.Show();
             }
 
         private void btn_start_Click(object sender, RoutedEventArgs e) {

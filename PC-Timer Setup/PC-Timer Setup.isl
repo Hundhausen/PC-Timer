@@ -1896,7 +1896,7 @@
 		<col def="S72">ISComponentSubFolder_</col>
 		<row><td>license.rtf</td><td>ISX_DEFAULTCOMPONENT</td><td>License.rtf</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Programmierung\VisualStudio\PC-Timer\PC-Timer\License.rtf</td><td>1</td><td/></row>
 		<row><td>pc_timer.prim_re_ausgabe</td><td>PC_Timer.Prim_re_Ausgabe</td><td>PC-Timer.Primäre Ausgabe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;PC-Timer&gt;|Built</td><td>3</td><td/></row>
-		<row><td>pc_timer_icon.ico</td><td>ISX_DEFAULTCOMPONENT</td><td>PC-Timer Icon.ico</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Programmierung\VisualStudio\PC-Timer\PC-Timer\PC-Timer Icon.ico</td><td>1</td><td/></row>
+		<row><td>pc_timer_icon.ico</td><td>ISX_DEFAULTCOMPONENT</td><td>PC-Timer_Icon.ico</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Programmierung\VisualStudio\PC-Timer\PC-Timer\Logo\PC-Timer_Icon.ico</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -3851,8 +3851,8 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
-		<row><td>_Built1_E4E8E77B6D7B47F59F0C68603FB3DD43.exe</td><td/><td>&lt;VSSolutionFolder&gt;\PC-Timer\PC-Timer Icon.ico</td><td>0</td></row>
-		<row><td>_Built_3E4D67C7336A45C4A0E6BEDC6B165D44.exe</td><td/><td>&lt;VSSolutionFolder&gt;\PC-Timer\PC-Timer Icon.ico</td><td>0</td></row>
+		<row><td>_Built1_56BA4E713F894ACCBC41F28BB7675D82.exe</td><td/><td>&lt;VSSolutionFolder&gt;\PC-Timer\Logo\PC-Timer_Icon.ico</td><td>0</td></row>
+		<row><td>_Built_9C2068D4FB58485E8A32BFB35637F196.exe</td><td/><td>&lt;VSSolutionFolder&gt;\PC-Timer\Logo\PC-Timer_Icon.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4528,8 +4528,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>_Built</td><td>pc_timer_setup</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>PC_Timer.Prim_re_Ausgabe</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built_3E4D67C7336A45C4A0E6BEDC6B165D44.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>PC_Timer.Prim_re_Ausgabe</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built1_E4E8E77B6D7B47F59F0C68603FB3DD43.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built</td><td>pc_timer_setup</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>PC_Timer.Prim_re_Ausgabe</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built_9C2068D4FB58485E8A32BFB35637F196.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>PC_Timer.Prim_re_Ausgabe</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built1_56BA4E713F894ACCBC41F28BB7675D82.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

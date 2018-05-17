@@ -44,4 +44,19 @@
     <system:String x:Key="msgbox_abort_head">Timer stopped</system:String>
     <system:String x:Key="msgbox_abort_txt">Timer got stopped</system:String>
 
+    <!-- About Window -->
+    <system:String x:Key="window_about">About PC-Timer</system:String>
+    <system:String x:Key="lable_version">Version:</system:String>
+    <system:String x:Key="lable_website">Project Website:</system:String>
+    <system:String x:Key="lable_issues">Submit issues:</system:String>
+    <system:String x:Key="lable_contrubitors">Contrubitors</system:String>
+    <system:String x:Key="lable_license">License</system:String>
+    <system:String x:Key="lable_libraries">External libraries</system:String>
+    <system:String x:Key="contrubitors_info_text">People who worked on the project and what they did:</system:String>
+    <system:String x:Key="rtf_failed_load">Failed to load License File.</system:String>
+
+    <!-- For Contrubitors - use your Github Username as Key -->
+    <system:String x:Key="hundhausen">Idea, initial work</system:String>
+    <system:String x:Key="yasujizr">Logo Design</system:String>
+
 </ResourceDictionary>

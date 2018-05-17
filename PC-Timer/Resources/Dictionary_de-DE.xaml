@@ -44,4 +44,20 @@
     <system:String x:Key="msgbox_abort_head">Timer abgebrochen</system:String>
     <system:String x:Key="msgbox_abort_txt">Timer wurde abgebrochen</system:String>
     
+    <!-- About Window -->
+    <system:String x:Key="window_about">Über PC-Timer</system:String>
+    <system:String x:Key="lable_version">Version</system:String>
+    <system:String x:Key="lable_website">Projekt Webseite:</system:String>
+    <system:String x:Key="lable_issues">Fehler melden:</system:String>
+    <system:String x:Key="lable_contrubitors">Mitwirkende</system:String>
+    <system:String x:Key="lable_license">Lizenz</system:String>
+    <system:String x:Key="lable_libraries">Externe Bibliotheken</system:String>
+    <system:String x:Key="contrubitors_info_text">Personen die am Projekt mitgearbeitet haben und was sie gemacht haben:</system:String>
+    <system:String x:Key="rtf_failed_load">Lizenz Datei konnte nicht geladen werden.</system:String>
+
+    <!-- For Contrubitors - use your Github Username as Key -->
+    <system:String x:Key="hundhausen">Idee, anfängliche Arbeit</system:String>
+    <system:String x:Key="yasujizr">Logo Design</system:String>
+
+
 </ResourceDictionary>
