@@ -6,6 +6,10 @@
 ##### This Program needs the .NET Framework 4.5 (in the Setup)
 ---
 
+## Languages
+- English (100%)- [Jean-Pierre Hundhausen](https://github.com/Hundhausen)
+- German (100%)- [Jean-Pierre Hundhausen](https://github.com/Hundhausen)
+
 ## Screenshots
 <p><img src="screenshot_1.PNG" alt="Screenshot 1" height="250px"></p>
 <p><img src="screenshot_2.PNG" alt="Screenshot 2" height="250px"></p>
@@ -30,7 +34,7 @@
 - [xceedsoftware](https://github.com/xceedsoftware) for the [Extended WPF Toolkit](https://github.com/xceedsoftware/wpftoolkit)
 
 ## Contrubitors
-- [Hundhausen](https://github.com/Hundhausen) - Idea and initial work
+- [Jean-Pierre Hundhausen](https://github.com/Hundhausen) - Idea and initial work
 - [Yasujizr](https://github.com/Yasujizr) - Logo Design
 
 ## Contributing or what you can do
