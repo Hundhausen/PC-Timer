@@ -15,8 +15,8 @@
 - scrollable time for mouse only usage
 
 ## Comming in next release
-- Better Info MessageBox with more infos (which other Projects are used and who helped)
-- add a check routine so that the pc don't turn off directly when there time is too low
+- Better About Window with more informations
+- adding threshold for asking if timer should be executed, to prevent unwanted shutdowns
 
 ## Release History
 - 0.0.2
@@ -41,5 +41,5 @@
 5. Create a Pull Request
 
 You can do whatever you want. When you think that your feature will fit, make it. When it works and fits into the project, I will accept it. 
-The Program supports multiple languages and you can add a language (please no Google Translate translations). In the Folder "PC-Timer/Resources/" are the files for the language. Please use the right CultureInfo Code (First position is the *Two Letter Language Code* and on the second position the *Two Letter Country Code*). Only adding this file, will not work and you must change a bit in the code. When you can't do it, than say this in the Pull Request and I can add it. 
+The Program supports multiple languages and you can add a language (please no Google Translate translations). In the Folder "PC-Timer/Resources/" are the files for the language. Please use the right CultureInfo Code (First position is the *__Two Letter Language Code__* and on the second position the *__Two Letter Country Code__*). Only adding this file, will not work and you must change a bit in the code. When you can't do it, than say this in the Pull Request and I can add it. 
 It's important to add a new Branch, so that others or I can make changes, before merging it to the master branch.  
