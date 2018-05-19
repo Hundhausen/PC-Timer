@@ -120,14 +120,19 @@ namespace PC_Timer {
             System.Diagnostics.Process.Start("https://github.com/Hundhausen/PC-Timer/issues");
             }
 
+        /// <summary>
+        /// Opens the About Window after clicking the Menu Button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenInfo_Click(object sender, RoutedEventArgs e) {
-            //TODO better Version
             AboutWindow aw = new AboutWindow(config_file);
             aw.Show();
             }
 
         private void btn_start_Click(object sender, RoutedEventArgs e) {
             int hour, min, sec, time = 0;
+            int threshold = 60; //threshold in sec, where timer ask before start
             if(tab_time.IsSelected) {
                 try {
                     //failsafe. if nothing is set in a textbox, vaule = 0. When not an integer can be ´parse into an integer, it should crash
@@ -182,6 +187,13 @@ namespace PC_Timer {
                     }
                 else {
                     NativeMethods.SetThreadExecutionState(EXECUTION_STATE.ES_CONTINUOUS | EXECUTION_STATE.ES_SYSTEM_REQUIRED | EXECUTION_STATE.ES_AWAYMODE_REQUIRED);
+                    }
+                }
+
+            //when set time is under threshold, user gets asked
+            if(time < threshold) {
+                if(MessageBox.Show(Application.Current.FindResource("msgbox_ask_start").ToString()+"\n"+time+" " + Application.Current.FindResource("msgbox_ask_time").ToString(), "PC-Timer", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.No) {
+                    return;
                     }
                 }
 

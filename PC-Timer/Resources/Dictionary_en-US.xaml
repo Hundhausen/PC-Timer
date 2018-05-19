@@ -43,6 +43,8 @@
     <system:String x:Key="msgbox_start_logout_txt">Timer got started. The user will got logged out as planed</system:String>
     <system:String x:Key="msgbox_abort_head">Timer stopped</system:String>
     <system:String x:Key="msgbox_abort_txt">Timer got stopped</system:String>
+    <system:String x:Key="msgbox_ask_start">The set time is very low. Do you want to start the Timer anyway?</system:String>
+    <system:String x:Key="msgbox_ask_time">Seconds until execution</system:String>
 
     <!-- About Window -->
     <system:String x:Key="window_about">About PC-Timer</system:String>

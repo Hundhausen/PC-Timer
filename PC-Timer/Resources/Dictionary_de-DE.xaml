@@ -43,7 +43,9 @@
     <system:String x:Key="msgbox_start_logout_txt">Timer wurde gestartet. Der Benutzer wird planmäßig abgemeldet</system:String>
     <system:String x:Key="msgbox_abort_head">Timer abgebrochen</system:String>
     <system:String x:Key="msgbox_abort_txt">Timer wurde abgebrochen</system:String>
-    
+    <system:String x:Key="msgbox_ask_start">Die eingestellte Zeit ist sehr niedrig. Möchtest du den Timer trotzdem starten?</system:String>
+    <system:String x:Key="msgbox_ask_time">Sekunden bis zur Ausführung</system:String>
+
     <!-- About Window -->
     <system:String x:Key="window_about">Über PC-Timer</system:String>
     <system:String x:Key="lable_version">Version</system:String>
@@ -58,6 +60,5 @@
     <!-- For Contrubitors - use your Github Username as Key -->
     <system:String x:Key="hundhausen">Idee, anfängliche Arbeit</system:String>
     <system:String x:Key="yasujizr">Logo Design</system:String>
-
 
 </ResourceDictionary>
