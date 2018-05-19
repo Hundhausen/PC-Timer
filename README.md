@@ -18,11 +18,15 @@
 - progressbar and time when event is planned
 - scrollable time for mouse only usage
 
-## Comming in next release
-- Better About Window with more informations
-- adding threshold for asking if timer should be executed, to prevent unwanted shutdowns
+## TODO / Known Bugs
+- Language doesn't change everywhere
+- Better Icon (looks weird)
 
 ## Release History
+- 0.0.3
+  - better about project page
+  - threshold added (program asks if you want to start the timer, if the set timer is under 60s)
+  - new Logo - Thanks [Yasujizr](https://github.com/Yasujizr)
 - 0.0.2
   - better setup (has the .NET Framework integrated in the setup)
   - remembers the latest language setting
