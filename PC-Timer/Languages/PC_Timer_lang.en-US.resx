@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="menu_lang" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="menu_de" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="menu_en" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="menu_help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="menu_info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="menu_code" xml:space="preserve">
+    <value>Sourcecode</value>
+  </data>
+  <data name="menu_error" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="tab_time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="tab_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="label_hour" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="label_min" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="label_sec" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="tooltip_displayonlywhen" xml:space="preserve">
+    <value>Monitor only can be set active, when the PC is not allowed to go into standby</value>
+  </data>
+  <data name="checkbox_sleep" xml:space="preserve">
+    <value>Avoid Standby</value>
+  </data>
+  <data name="checkbox_display" xml:space="preserve">
+    <value>Keep Monitor active</value>
+  </data>
+  <data name="dropdown_shutdown" xml:space="preserve">
+    <value>Shutdown</value>
+  </data>
+  <data name="dropdown_restart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="dropdown_suspend" xml:space="preserve">
+    <value>Hybernate</value>
+  </data>
+  <data name="dropdown_logout" xml:space="preserve">
+    <value>Logout user</value>
+  </data>
+  <data name="btn_start" xml:space="preserve">
+    <value>Start timer</value>
+  </data>
+  <data name="btn_stop" xml:space="preserve">
+    <value>Stop timer</value>
+  </data>
+  <data name="msgbox_fail_head" xml:space="preserve">
+    <value>Error - Timer got not started</value>
+  </data>
+  <data name="msgbox_fail_txt" xml:space="preserve">
+    <value>Timer got not started because of an unknown error</value>
+  </data>
+  <data name="msgbox_noint_txt" xml:space="preserve">
+    <value>Timer got not started because only numbers are allowed</value>
+  </data>
+  <data name="msgbox_dateoutofrange_txt" xml:space="preserve">
+    <value>Timer got not started because the date is set to a past date</value>
+  </data>
+  <data name="msgbox_start_head" xml:space="preserve">
+    <value>Timer got started</value>
+  </data>
+  <data name="msgbox_start_shutodown_txt" xml:space="preserve">
+    <value>Timer got started. The PC will shutdown as planed</value>
+  </data>
+  <data name="msgbox_start_restart_txt" xml:space="preserve">
+    <value>Timer got started. The PC will restart as planed</value>
+  </data>
+  <data name="msgbox_start_suspend_txt" xml:space="preserve">
+    <value>Timer got started. The PC will hybernate as planed</value>
+  </data>
+  <data name="msgbox_start_logout_txt" xml:space="preserve">
+    <value>Timer got started. The user will got logged out as planed</value>
+  </data>
+  <data name="msgbox_abort_head" xml:space="preserve">
+    <value>Timer stopped</value>
+  </data>
+  <data name="msgbox_abort_txt" xml:space="preserve">
+    <value>Timer got stopped</value>
+  </data>
+  <data name="msgbox_ask_start" xml:space="preserve">
+    <value>The set time is very low. Do you want to start the Timer anyway?</value>
+  </data>
+  <data name="msgbox_ask_time" xml:space="preserve">
+    <value>Seconds until execution</value>
+  </data>
+  <data name="window_about" xml:space="preserve">
+    <value>About PC-Timer</value>
+  </data>
+  <data name="lable_version" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="lable_website" xml:space="preserve">
+    <value>Project Website:</value>
+  </data>
+  <data name="lable_issues" xml:space="preserve">
+    <value>Submit issues:</value>
+  </data>
+  <data name="lable_contrubitors" xml:space="preserve">
+    <value>Contrubitors</value>
+  </data>
+  <data name="lable_license" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="lable_libraries" xml:space="preserve">
+    <value>External libraries</value>
+  </data>
+  <data name="contrubitors_info_text" xml:space="preserve">
+    <value>People who worked on the project and what they did:</value>
+  </data>
+  <data name="rtf_failed_load" xml:space="preserve">
+    <value>Failed to load License File.</value>
+  </data>
+  <data name="contrubitor_hundhausen" xml:space="preserve">
+    <value>Idea, initial work</value>
+  </data>
+  <data name="contrubitor_yasujizr" xml:space="preserve">
+    <value>Logo Design</value>
+  </data>
+  <data name="msgbox_lang_changed" xml:space="preserve">
+    <value>Please restart the Program to see the changes</value>
+  </data>
+  <data name="msgbox_lang_changed_title" xml:space="preserve">
+    <value>Language changed</value>
+  </data>
+  <data name="btn_yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="btn_no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="btn_later" xml:space="preserve">
+    <value>Later</value>
+  </data>
+  <data name="updater_never" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="updater_days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="updater_day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="updater_title" xml:space="preserve">
+    <value>Look for Updates?</value>
+  </data>
+  <data name="updater_interval" xml:space="preserve">
+    <value>Look every</value>
+  </data>
+  <data name="updater_message" xml:space="preserve">
+    <value>Do you want to check for updates automatically?</value>
+  </data>
+  <data name="updater_prereleases" xml:space="preserve">
+    <value>Pre-Releases?</value>
+  </data>
+  <data name="updater_newversion" xml:space="preserve">
+    <value>Version {0} is avaible
+How do you wan't to procede?</value>
+  </data>
+  <data name="updater_download" xml:space="preserve">
+    <value>Download and start Setup</value>
+  </data>
+  <data name="updater_visit" xml:space="preserve">
+    <value>Visit Website</value>
+  </data>
+  <data name="updater_later" xml:space="preserve">
+    <value>Remind me in {0} days again</value>
+  </data>
+  <data name="updater_newversion_Title" xml:space="preserve">
+    <value>New Version avaible</value>
+  </data>
+</root>
